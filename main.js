@@ -24,14 +24,14 @@ var pct =new Array(9);
     var colortxt2= '#7FB1ED';
     var colortxt3= '#000000';
     //Select the background color
-    var color =color1;
+    var color =color2;
     //Select the text color
-    var colortxt = colortxt1;
+    var colortxt = colortxt2;
     var gendertext1 = "It is a Girl!";
     var gendertext2 = "It is a Boy!";
     var gendertext3= "It is a Demo!";
     //Select the gender text
-    var gendertext = gendertext1;
+    var gendertext = gendertext2;
     var surname;
     var soundHandle = new Audio();
     var triggered=false;
