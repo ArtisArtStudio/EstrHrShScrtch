@@ -164,10 +164,10 @@ var pct =new Array(9);
             const timeLeft = end - Date.now();
             const particleCount = 5 * (timeLeft / duration);
             // launch a few confetti from the left edge
-        confetti({...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }}
+        confetti({...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }, colors:[colortxt]}
         );
         // and launch a few from the right edge
-        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }}
+        confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }, colors:[colortxt]}
         );
 
         // keep going until we are out of time  
